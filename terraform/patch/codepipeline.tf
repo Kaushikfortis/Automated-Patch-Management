@@ -75,7 +75,7 @@ resource "aws_codepipeline" "codepipeline" {
     }
   }
 
-  # QA
+  # Building QA
   stage {
     name = "Build-for-QA"
 
